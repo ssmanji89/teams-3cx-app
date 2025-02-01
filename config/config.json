@@ -1,8 +1,11 @@
 {
-  "serverAddress": "http://localhost:3001",
-  "port": 3001,
-  "credentials": {
-    "username": "admin",
-    "password": "password"
+  "3cx": {
+    "apiUrl": "https://api.3cx.com",
+    "apiKey": "YOUR_3CX_API_KEY",
+    "companyId": "YOUR_COMPANY_ID"
+  },
+  "server": {
+    "host": "https://yourbackend.com",
+    "port": 443
   }
 }

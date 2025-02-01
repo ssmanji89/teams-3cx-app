@@ -1,0 +1,49 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.11/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.11",
+  "version": "1.0.0",
+  "id": "00000000-0000-0000-0000-000000000000",
+  "packageName": "com.example.teamsapp",
+  "developer": {
+    "name": "Your Company",
+    "websiteUrl": "https://yourbackend.com",
+    "privacyUrl": "https://yourbackend.com/privacy",
+    "termsOfUseUrl": "https://yourbackend.com/terms"
+  },
+  "name": {
+    "short": "TeamsApp",
+    "full": "Microsoft Teams Application"
+  },
+  "description": {
+    "short": "A Teams application for integration with 3CX and backend services.",
+    "full": "A custom Microsoft Teams app that integrates telephony features and backend functionalities with 3CX."
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#FFFFFF",
+  "staticTabs": [
+    {
+      "entityId": "homeTab",
+      "name": "Home",
+      "contentUrl": "https://yourfrontend.com/index.html",
+      "websiteUrl": "https://yourfrontend.com",
+      "scopes": [
+        "personal"
+      ]
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "yourfrontend.com",
+    "yourbackend.com"
+  ],
+  "webApplicationInfo": {
+    "id": "your-azure-ad-app-id",
+    "resource": "https://yourbackend.com"
+  }
+}
