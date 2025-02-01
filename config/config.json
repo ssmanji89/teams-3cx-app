@@ -1,0 +1,8 @@
+{
+  "serverAddress": "http://localhost:3001",
+  "port": 3001,
+  "credentials": {
+    "username": "admin",
+    "password": "password"
+  }
+}
